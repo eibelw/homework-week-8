@@ -1,0 +1,17 @@
+{
+  "name": "homework-8",
+  "version": "1.0.0",
+  "description": "homework week 8",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "seed": "node db/seeding.js"
+  },
+  "author": "Abel Winson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3"
+  }
+}
